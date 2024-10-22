@@ -14,7 +14,7 @@ namespace Expotec_Insanity
             { 0,0 },{ 0, 1}, { 0, 2,},
             { 1,0 },{ 1, 1}, { 1, 2},
             { 2,0 },{ 2, 1}, { 2, 2}};
-            int[,] charpos = { {1},{2} };
+            int[,] charpos = { {0,0} };
 
             foreach (var item in pos)
             {
