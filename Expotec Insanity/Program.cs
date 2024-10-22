@@ -10,7 +10,20 @@ namespace Expotec_Insanity
     {
         static void Main(string[] args)
         {
+            int[,] pos = { 
+            { 0,0 },{ 0, 1}, { 0, 2,},
+            { 1,0 },{ 1, 1}, { 1, 2},
+            { 2,0 },{ 2, 1}, { 2, 2}};
+            int[,] charpos = { {1},{2} };
 
+            foreach (var item in pos)
+            {
+                Console.Write(item.ToString());
+            }
+
+
+
+            Console.ReadKey();
         }
     }
 }
